@@ -1,0 +1,9 @@
+<div>{{#each notes}}
+    <div class="input-group mb-3" > 
+                <input type="text" id="savedbodyinput" class="form-control" placeholder="saved Note on article" aria-label="saved Article note"
+                    aria-describedby="button-addon2">
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary delete" data-id={{this._id}} type="button" id="saved-button-addon2">Delete</button>
+                </div>
+    </div>
+</div>
